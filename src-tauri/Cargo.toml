@@ -1,8 +1,8 @@
 [package]
 name = "spoti-fm"
-version = "0.0.0"
-description = "A Tauri App"
-authors = ["you"]
+version = "0.0.1"
+description = "Spoti.fm - a re-design of the Spotify desktop app"
+authors = ["Dominik Czekański"]
 license = ""
 repository = ""
 edition = "2021"
@@ -17,6 +17,7 @@ tauri-build = {version = "1.2", features = [] }
 serde_json = "1.0"
 serde = { version = "1.0", features = ["derive"] }
 tauri = {version = "1.2", features = ["api-all"] }
+rspotify = {version = "0.11.5", default-features = false, features = ["client-reqwest", "reqwest-native-tls"] }
 
 [features]
 # by default Tauri runs in production mode
