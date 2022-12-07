@@ -1,7 +1,24 @@
-# Tauri + React + Typescript
+# Spoti.fm
 
-This template should help get you started developing with Tauri, React and Typescript in Vite.
+###### _Spoti.fm is a re-design of the Spotify Desktop App_
 
-## Recommended IDE Setup
+---
 
-- [VS Code](https://code.visualstudio.com/) + [Tauri](https://marketplace.visualstudio.com/items?itemName=tauri-apps.tauri-vscode) + [rust-analyzer](https://marketplace.visualstudio.com/items?itemName=rust-lang.rust-analyzer)
+My goal is to create modern-looking Spotify desktop client with less app size and memory consumption.
+**I've used Tauri, React + TS and Tailwind CSS**
+
+---
+
+## Current roadmap
+
+- [x] Create overall look
+- [x] Create simple README
+- [ ] Finish Sidebar
+- [ ] Finish Controlbar
+- [ ] Integrate with Spotify API
+- [ ] Implement login popup
+- [ ] Add middleware and security tweaks
+- [ ] Finish README
+- [ ] Make main window
+
+_To be updated_
